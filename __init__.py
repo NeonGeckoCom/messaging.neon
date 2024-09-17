@@ -26,7 +26,7 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE,  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-from adapt.intent import IntentBuilder
+from ovos_workshop.intents import IntentBuilder
 from neon_utils.message_utils import request_from_mobile
 from neon_utils.skills.common_message_skill import CommonMessageSkill, CMSMatchLevel
 from neon_utils.user_utils import get_message_user
